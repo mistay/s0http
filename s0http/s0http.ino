@@ -94,8 +94,8 @@ static uint32_t timer = 0;
 
 const char website[] PROGMEM = "vz.langhofer.net";
 
-int LED_LAN_RDY =A2;
-int LED_LAN_ROOCESSING =A3;
+int LED_LAN_RDY =2;
+int LED_LAN_ROOCESSING =3;
 
 
 int ResetGPIO = A3;
@@ -181,11 +181,12 @@ void setup () {
   Serial.begin(115200);
   Serial.println(F("\ns0vz v2 starting..."));
   
+  
+  
+  
   //displaystuff("s0vz v2 build 1702", "192.168.2.3", "13:22:23:12:23:42");
  
   
-  pinMode(2, INPUT_PULLUP);
-  pinMode(3, INPUT_PULLUP);
   pinMode(4, INPUT_PULLUP);
   pinMode(5, INPUT_PULLUP);
   pinMode(6, INPUT_PULLUP);
@@ -195,11 +196,27 @@ void setup () {
   
   pinMode(A0, INPUT_PULLUP);
   pinMode(A1, INPUT_PULLUP);
+  pinMode(A2, INPUT_PULLUP);
+  pinMode(A3, INPUT_PULLUP);
+  
 
   pinMode(LED_LAN_RDY, OUTPUT);
-  digitalWrite(LED_LAN_RDY, LOW);
   pinMode(LED_LAN_ROOCESSING, OUTPUT);
+  
+  // LED test
+  delay(200);
+  digitalWrite(LED_LAN_RDY, HIGH);
+  delay(200);
+  digitalWrite(LED_LAN_RDY, LOW);
+  digitalWrite(LED_LAN_ROOCESSING, HIGH);
+  delay(200);
   digitalWrite(LED_LAN_ROOCESSING, LOW);
+  digitalWrite(LED_LAN_RDY, LOW);
+  
+  
+  
+  
+  
   
   if (EEPROM.read(1) != '#') {
     Serial.println(F("\nWriting EEProm..."));
@@ -304,16 +321,16 @@ void loop () {
  
     
     
-  dodebounce(0,2);
-  dodebounce(1,3);
-  dodebounce(2,4);
-  dodebounce(3,5);
-  dodebounce(4,6);
-  dodebounce(5,7);
-  dodebounce(6,8);
-  dodebounce(7,9);
-  dodebounce(8,A0);
-  dodebounce(9,A1);
+  dodebounce(0,4);
+  dodebounce(1,5);
+  dodebounce(2,6);
+  dodebounce(3,7);
+  dodebounce(4,8);
+  dodebounce(5,9);
+  dodebounce(6,A0);
+  dodebounce(7,A1);
+  dodebounce(8,A2);
+  dodebounce(9,A3);
    
   if (millis() > timer) {
     heartbeat++;
@@ -332,6 +349,8 @@ void loop () {
     
     
     c = a;
+    c += "&millis=";
+    c += millis();
     int found=0;
     for (int i=0; i<10; i++) {
       if (values[i] > 0) {
