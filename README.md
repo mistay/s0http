@@ -6,7 +6,7 @@ device for uploading counted s0 impulses to http server
 ## board (PCB)
 look at [eagle/](https://github.com/mistay/s0http/tree/master/eagle) directory. You can order a board per e-mail. Please send 20EUR per paypal to office@langhofer.at and attach your shipping address to the order.
 
-
+```
 <script 
     data-tax="0" 
     data-shipping="0" 
@@ -16,7 +16,7 @@ look at [eagle/](https://github.com/mistay/s0http/tree/master/eagle) directory. 
     data-name="latest_s0http_pcb" 
     data-button="buynow" src="https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=office@langhofer.at" async="async"
 ></script>
-
+```
 
 ## Arduino Source Code
 look at [s0http/](https://github.com/mistay/s0http/tree/master/arduino) directory
