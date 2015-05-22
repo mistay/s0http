@@ -1,5 +1,5 @@
 # s0http
-device for uploading counted s0 impulses to http server
+device for uploading counted s0 impulses to your http server
 
 <img width="300px" src="https://raw.githubusercontent.com/mistay/s0http/master/media/IMG_7551.JPG" />
 
