@@ -12,7 +12,7 @@ look at [eagle/](https://github.com/mistay/s0http/tree/master/eagle) directory. 
 [<img src="https://www.paypal.com/en_GB/i/btn/btn_paynow_LG.gif" />](https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=office%40langhofer%2eat&lc=GB&item_name=latest_s0http_pcb&amount=20%2e00&currency_code=EUR&button_subtype=services&no_note=0&shipping=0%2e00&bn=PP%2dBuyNowBF%3abtn_buynowCC_LG%2egif%3aNonHostedGuest)
 
 ## Arduino Source Code
-look at [s0http/](https://github.com/mistay/s0http/tree/master/arduino) directory
+look at [s0http/](https://github.com/mistay/s0http/tree/master/s0http) directory
 
 ## BOM (bill of material)
 - [din rail 12v power supply](http://www.pollin.de/shop/dt/OTc1ODQ2OTk-/Stromversorgung/Netzgeraete/Festspannungs_Netzgeraete/Hutschienen_Schaltnetzteil_MEANWELL_DR_15_12_12_V_1_25_A.html) (approx. 11EUR)
