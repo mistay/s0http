@@ -16,7 +16,7 @@ UsedLibrary="/Applications/EAGLE-7.2.0/lbr/elektro/e-lampen-signalisation.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="-1167 393 -1 972"
+Loc="-1167 371 -1 950"
 State=2
 Number=0
 
