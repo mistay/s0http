@@ -19,7 +19,7 @@ look at [eagle/](https://github.com/mistay/s0http/tree/master/eagle) directory. 
 <input type="hidden" name="tax_rate" value="20.000">
 <input type="hidden" name="shipping" value="0.00">
 <input type="hidden" name="bn" value="PP-BuyNowBF:btn_paynow_SM.gif:NonHostedGuest">
-<a class="buynow" id="buynow1" onclick="this.parentElement.submit()">
+<a style="width: 400px; background-color: yellow;" id="buynow1" onclick="this.parentElement.submit()">
 buy now 
 </a>
 <img alt="" border="0" src="https://www.paypal.com/de_DE/i/scr/pixel.gif" width="1" height="1">
