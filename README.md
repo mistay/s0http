@@ -6,24 +6,13 @@ device for uploading counted s0 impulses to http server
 ## board (PCB)
 look at [eagle/](https://github.com/mistay/s0http/tree/master/eagle) directory. You can order a board per e-mail. Please send 20EUR per paypal to office@langhofer.at and attach your shipping address to the order.
 
-<form target="_blank" action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin-bottom: 0px; height:0px">
-<input type="hidden" name="cmd" value="_xclick">
-<input type="hidden" name="business" value="office@langhofer.at">
-<input type="hidden" name="lc" value="AT">
-<input type="hidden" name="item_name" value="PCB current s0http">
-<input type="hidden" name="item_number" value="PCB current s0http">
-<input type="hidden" name="amount" value="20">
-<input type="hidden" name="currency_code" value="EUR">
-<input type="hidden" name="button_subtype" value="services">
-<input type="hidden" name="no_note" value="0">
-<input type="hidden" name="tax_rate" value="20.000">
-<input type="hidden" name="shipping" value="0.00">
-<input type="hidden" name="bn" value="PP-BuyNowBF:btn_paynow_SM.gif:NonHostedGuest">
-<a style="width: 400px; background-color: yellow;" id="buynow1" onclick="this.parentElement.submit()">
-buy now 
-</a>
-<img alt="" border="0" src="https://www.paypal.com/de_DE/i/scr/pixel.gif" width="1" height="1">
-</form>
+<script src="https://www.paypalobjects.com/js/external/paypal-button.min.js?merchant=YOUR_MERCHANT_ID"
+    data-button="buynow"
+    data-name="My product"
+    data-amount="1.00"
+    async
+></script>
+
 
 ## Arduino Source Code
 look at [s0http/](https://github.com/mistay/s0http/tree/master/arduino) directory
