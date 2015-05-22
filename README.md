@@ -21,3 +21,6 @@ look at [s0http/](https://github.com/mistay/s0http/tree/master/s0http) directory
  (approx. 4EUR)
 - [mini 360 DC-DC Buck Converter](http://www.ebay.de/sch/i.html?_odkw=step+down&_sop=15&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR11.TRC1.A0.H0.XMini-360+DC-DC+Buck+Konverter.TRS0&_nkw=Mini-360+DC-DC+Buck+Konverter&_sacat=0) (approx. 1EUR)
 - [arduino pro mini](http://www.ebay.de/sch/i.html?_from=R40&_sacat=0&_nkw=pro+mini+arduino&_sop=15) (approx. 2EUR)
+
+## special thanks
+to einstein st0nie st0ne.
