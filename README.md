@@ -24,7 +24,7 @@ look at [s0http/](https://github.com/mistay/s0http/tree/master/s0http) directory
 - [10 pc mosfet 7002](http://www.ebay.de/sch/i.html?_from=R40&_sacat=0&_sop=15&_nkw=mosfet+7002+SOT-23&rt=nc&LH_BIN=1)
 - [10 pc 10kohm resitors](http://www.ebay.de/sch/i.html?_odkw=mosfet+7002+SOT-23&_sop=15&LH_BIN=1&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR5.TRC1.A0.H0.X0805+10k.TRS0&_nkw=0805+10k&_sacat=0)
 - [10 pc screw terminal](http://www.ebay.de/sch/i.html?_odkw=printklemme&_sop=15&LH_BIN=1&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR3.TRC1.A0.H0.XAnschlussklemme+DG301.TRS0&_nkw=Anschlussklemme+DG301&_sacat=0)
-
+- [1pc header 40pin](http://www.ebay.de/sch/i.html?_odkw=stiftleiste+header&_sop=15&LH_BIN=1&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR6.TRC0.A0.H0.Xheader+2.54.TRS0&_nkw=header+2.54&_sacat=0)
 
 ## special thanks
 to einstein st0nie st0ne.
