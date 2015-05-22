@@ -4,7 +4,7 @@ device for uploading counted s0 impulses to http server
 <img width="300px" src="https://raw.githubusercontent.com/mistay/s0http/master/media/IMG_7551.JPG" />
 
 ## board (PCB)
-look at [eagle/](https://github.com/mistay/s0http/tree/master/eagle) directory. You can either make the board by yourself or order a pcb where you'll get 4 to 5 circuits. They have to be cut and drilled by yourself.
+look at the [eagle/](https://github.com/mistay/s0http/tree/master/eagle) directory. You can either make the board by yourself or order a pcb where you'll get 4 to 5 circuits. They have to be cut and drilled by yourself.
 
 
 <img width="300px" src="https://raw.githubusercontent.com/mistay/s0http/master/media/IMG_7652.JPG" />
